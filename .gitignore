@@ -20,7 +20,6 @@ data/embeds/*.pt
 data/images/*
 .idea
 results/*
-docs
 logs
 scripts
 .vscode
