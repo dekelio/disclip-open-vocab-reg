@@ -2,11 +2,9 @@
 Authors: Lior Bracha*, Eitan Shaar*, Aviv Shamsian, Ethan Fetaya, Gal Chechik
 <br><br>
 
+<img src="docs/disclip-git.png" width=700>
 <!-- This repository contains code, models, and other related resources of our paper [DisCLIP: Open-Vocabulary Referring Expression Generation](http://arxiv.org/abs/2305.19108). -->
-
 <!-- <a href='#disclip-reg'>Inference demo </a> [ ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) ] -->
-
-
 
 ## News 
 <!-- [2023/05/06] New options for image captioning backbone   -->
@@ -17,7 +15,7 @@ Authors: Lior Bracha*, Eitan Shaar*, Aviv Shamsian, Ethan Fetaya, Gal Chechik
 <br>
 
 ## Environment Setup
-Run ``pip install -r requirements.txt`` or follow instructions in [``env.md``]()
+Run ``pip install -r requirements.txt`` or follow instructions in [``env.md``](env.md)
 
 ## Data 
 
@@ -34,7 +32,7 @@ ln -s /path/to/coco/images/ data/images/refcoco
 
 ## Usage
 ```
-python run.py --dataset refcoco+ --split testa --speaker disclip --listener mdetr
+python run.py --dataset refcoco+ --split testa --speaker disclip --listener reclip
 ```
 
 ## Citation
